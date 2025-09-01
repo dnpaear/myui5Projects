@@ -1,0 +1,24 @@
+<mvc:View controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"> 
+    <Page>
+    <content>
+    <Text id="_IDGenText1" text="This is first view"  textAlign="Center" width="100%"/>
+    <VBox >
+    <Text id="_IDGenText2" text="Welcome to SAPUI" class="sapMH5FontSize" textAlign="Center" width="90%" design="Bold" ></Text></VBox>
+    <Label id="_IDGenLabe1" text="Enter your name" class="sapUiSmallMargin " required="true" design="Bold"> </Label>
+    <Input id="_IDGenInput1" width="30%" value="" placeholder="enter name"  maxLength="10"></Input>
+     <Label id="_IDGenLabe2" text="Enter Alignment" class="sapUiSmallMargin " required="true" design="Bold"> </Label>
+    <Input id="_IDGenInput2" width="30%" value="" placeholder="enter name"  maxLength="10"></Input>
+    </content>
+    <footer>
+    <Bar id="_IDGenBar" >
+    <contentMiddle> 
+        <Button id="_IDGenButton1" text="Hide" press="onHideShow" type="Reject" />
+
+    <Button id="_IDGenButton2" text="Submit" press="onSubmit" type="Accept" />
+     </contentMiddle>
+    </Bar>
+    </footer>
+    </Page>
+</mvc:View>
